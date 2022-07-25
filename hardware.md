@@ -23,6 +23,7 @@
 | stm32f745xe    | NUCO-V-F745VE + NUCLEO2USB |                                             |
 | stm32f401xe    | WeAct STM32F401CEU6        |                                             |
 | stm32h743vt    | Boring Tech STM32H743      | USB 5v connected to A9                      |
+| stm32h750vb    | DIY board                  |                                             |
 
 [NUCLEO2USB SHIELD](https://github.com/dmitrystu/Nucleo2USB)
 [NUCO-V](https://github.com/dmitrystu/nuco-v)
