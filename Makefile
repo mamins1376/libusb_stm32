@@ -292,6 +292,12 @@ stm32h743xx: clean
 						DEFINES='STM32H7 STM32H743xx USBD_VBUS_DETECT USBD_SOF_DISABLED' \
 						CFLAGS='-mcpu=cortex-m7'
 
+stm32h750xx: clean
+	@$(MAKE) demo STARTUP='$(CMSISDEV)/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h750xx.s' \
+						LDSCRIPT='demo/stm32h750xx.ld' \
+						DEFINES='STM32H7 STM32H750xx USBD_VBUS_DETECT USBD_SOF_DISABLED' \
+						CFLAGS='-mcpu=cortex-m7'
+
 stm32f411xe stm32f411e-disco: clean
 	@$(MAKE) demo STARTUP='$(CMSISDEV)/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f411xe.s' \
 						LDSCRIPT='demo/stm32f401xe.ld' \
